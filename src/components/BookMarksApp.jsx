@@ -115,7 +115,7 @@ export default function BookmarksApp({ session }) {
     }
 
     // Prepend the new bookmark to the list
-    setBookmarks((current) => [data, ...current]);
+    // setBookmarks((current) => [data, ...current]);
     setNewTitle('');
     setNewUrl('');
   }
